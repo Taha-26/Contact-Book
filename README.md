@@ -29,9 +29,13 @@ The application avoids global state and static class structures, adhering tightl
 ## 📁 File Structure
 
 ```text
-├── Contact.py      # The Contact entity class definition
-├── ContactBook.py  # The collection repository managing the entities
-└── main.py         # Main entry point and automated integration tests
+│
+├── src/
+│   ├── main.py             # Main entry point 
+│   └── contact.py          # The Contact entity class definition
+│   └── contact_book.py     # The collection repository managing the entities
+│
+└── README.md      
 ```
 ---
 ## 💻 Getting Started

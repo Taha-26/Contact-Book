@@ -1,3 +1,6 @@
+from typing import Dict
+
+
 class Contact:
     """Represents a single contact entity containing personal details.
 
@@ -33,7 +36,7 @@ class Contact:
         self.birthday = birthday
         self.note = note
 
-    def to_dict(self) -> dict:
+    def to_dict(self) -> Dict[str, str]:
         """Serialize the contact object properties into a standard dictionary.
 
         :return: A dictionary representation containing all contact attributes.
