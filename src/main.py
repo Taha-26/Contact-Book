@@ -4,7 +4,7 @@ This module demonstrates the usage of the ContactBook and Contact classes
 by initializing a contact book instance, populating it with sample data,
 and executing a search query.
 
-Author: https://github.com/Taha-26
+Author: https://github.com/AmiinMohammadi
 """
 
 from Contact import Contact
